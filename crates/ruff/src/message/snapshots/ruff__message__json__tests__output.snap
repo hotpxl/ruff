@@ -27,6 +27,7 @@ expression: content
       ],
       "message": "Remove unused import: `os`"
     },
+    "human_readable_code": "unused-import",
     "location": {
       "column": 8,
       "row": 1
@@ -59,6 +60,7 @@ expression: content
       ],
       "message": "Remove assignment to unused variable `x`"
     },
+    "human_readable_code": "unused-variable",
     "location": {
       "column": 5,
       "row": 6
@@ -75,6 +77,7 @@ expression: content
     },
     "filename": "undef.py",
     "fix": null,
+    "human_readable_code": "undefined-name",
     "location": {
       "column": 4,
       "row": 1

@@ -172,6 +172,7 @@ fn stdin_json() -> Result<()> {
       ],
       "message": "Remove unused import: `os`"
     }},
+    "human_readable_code": "unused-import",
     "location": {{
       "column": 8,
       "row": 1
